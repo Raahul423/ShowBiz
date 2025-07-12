@@ -35,7 +35,9 @@ A modern and responsive movie ticket booking platform built with React and Tailw
 
 
 
-✨ Features
+⭐ Features
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🔐 User Authentication with Clerk
 
 🎞️ Browse & Book Tickets for Movies
