@@ -18,6 +18,7 @@ A modern and responsive movie ticket booking platform built with React and Tailw
 
 
 📸 Screenshots
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### 🏠 Homepage
 ![Homepage](src/assets/Home.png)
 
