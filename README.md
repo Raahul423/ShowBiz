@@ -22,13 +22,13 @@ A modern and responsive movie ticket booking platform built with React and Tailw
 ![Homepage](src/assets/Home.png)
 
 #### 🎬 Movie Details
-![Movie Details](./assets/Movies.png)
+![Movie Details](src/assets/Movies.png)
 
 #### 🎟️ Seat Layout
-![Seat Layout](./assets/Seat-Layout.png)
+![Seat Layout](src/assets/Seat-Layout.png)
 
 #### 🔐 Login / Signup
-![Login](./assets/Clerk-Authentication.png)
+![Login](src/assets/Clerk-Authentication.png)
 
 
 
