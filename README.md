@@ -95,7 +95,7 @@ ticketbooking/
 👤 Author
 Rahul Pal
 
-GitHub: @yourgithub
+GitHub: https://github.com/Raahul423
 
 Portfolio: yourportfolio.com (optional)
 
