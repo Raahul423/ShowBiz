@@ -58,7 +58,6 @@ A modern and responsive movie ticket booking platform built with React and Tailw
 
 
 
-
 🧰 Tech Stack
 Tech	Usage
 React.js	Frontend Framework
@@ -111,9 +110,6 @@ Licensed under the MIT License.
 
 
 
-
-
-
 ⚙️ Setup & Installation
 bash
 Copy
@@ -125,7 +121,7 @@ cd ShowBiz
 # 2. Install dependencies
 npm install
 
-# 3. Create .env file (see below)
+
 
 # 4. Run development server
 npm run dev
