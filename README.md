@@ -113,7 +113,7 @@ Portfolio: yourportfolio.com (optional)
 
 📄 License
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Licensed under the MIT License.
+Licensed under the MIT License (/LICENSE).
 
 
 
