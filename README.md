@@ -73,7 +73,7 @@ bash
 Copy
 Edit
 # 1. Clone the repository
-git clone https://github.com/yourusername/ticketbooking.git
+git clone https://github.com/Raahul423/ShowBiz.git
 cd ticketbooking
 
 # 2. Install dependencies
