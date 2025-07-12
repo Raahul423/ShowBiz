@@ -120,7 +120,7 @@ Copy
 Edit
 # 1. Clone the project
 git clone https://github.com/Raahul423/ShowBiz.git
-cd ticketbooking
+cd ShowBiz
 
 # 2. Install dependencies
 npm install
