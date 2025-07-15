@@ -26,7 +26,7 @@ const FavouritePage = () => {
           ))}
         </div>
       ) : (
-        <p className="text-gray-300">No favorite movies added yet.</p>
+        <div className="text-gray-300">No favorite movies added yet.</div>
       )}
     </div>
   );

@@ -1,9 +1,11 @@
 import React from 'react'
 import { assets } from '../assets/assets'
 import { ArrowRight, Calendar, Clock } from 'lucide-react'
+import { useNavigate } from 'react-router'
 
 const Theaters = () => {
 
+    const navigate = useNavigate();
 
 
   return (
@@ -31,7 +33,7 @@ const Theaters = () => {
 
 
             <div className='pl-20 max-md:pl-10 max-sm:pl-4'>
-                <button onClick={()=>{navigate('./Movies')}} className='bg-[#f74566] px-8 py-3 rounded-4xl flex cursor-pointer'>Explore Movies <ArrowRight/> </button>
+                <button onClick={()=>{navigate('/Movies')}} className='bg-[#f74566] px-8 py-3 rounded-4xl flex cursor-pointer'>Explore Movies <ArrowRight/> </button>
             </div>
 
         </div>

@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      {!adminroute && <Navbar />}
+      {<Navbar />}
       <Toaster />
       <Routes>
         <Route path="/" element={<Home />} />
