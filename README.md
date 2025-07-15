@@ -10,8 +10,9 @@ A modern and responsive movie ticket booking platform built with React and Tailw
 
 🚀 Live Demo
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🌍 Live on Vercel
-📦 GitHub Repository
+🌍 Live on Vercel : https://show-biz-flax.vercel.app/
+
+📦 GitHub Repository : https://github.com/Raahul423/ShowBiz
 
 
 
@@ -113,7 +114,8 @@ Portfolio: yourportfolio.com (optional)
 
 📄 License
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Licensed under the MIT License.
+This project is licensed under the [MIT License](./LICENSE).
+
 
 
 
