@@ -6,7 +6,7 @@ import { useClerk, UserButton, useUser } from '@clerk/clerk-react';
 
 const Navbar = () => {
 
-  const [isopen ,setIsopen]=useState(true)
+  const [isopen ,setIsopen]=useState(false)
 
 
   const { user } = useUser()
