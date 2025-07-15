@@ -17,7 +17,7 @@ const FavouritePage = () => {
   }, []);
 
   return (
-    <div className="px-[10em] py-[8em]">
+    <div className="px-[10em] py-[8em] max-sm:px-[2em] max-sm:py-[6em]">
       <h2 className="text-3xl font-bold mb-6">My Favourites</h2>
       {favMovies.length > 0 ? (
         <div className="flex flex-wrap gap-6">
