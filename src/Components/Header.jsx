@@ -8,9 +8,11 @@ const Header = () => {
 
 const navigate = useNavigate()
 
-setTimeout(()=>{
+const timeout = setTimeout(()=>{
     toast.success("Welcome User")
 })
+
+// clearTimeout(timeout);
 
 
     return (

@@ -59,8 +59,6 @@ const Moviesdetails = () => {
 
             <a href='#Cast' onClick={() => { navigate(`/Movies/${show.movie._id}`) }} className='bg-[#f74566] px-12 py-3 rounded-[.5em] cursor-pointer'>Buy Ticket</a>
 
-            <p className='h-[3em] w-[3em] rounded-full bg-gray-700 flex items-center cursor-pointer justify-center '><Heart className='h-[1.5em] w-[1.5em]' /></p>
-
           </div>
         </div>
       </div>

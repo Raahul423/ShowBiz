@@ -26,7 +26,7 @@ const MoviesCart = () => {
 
     return (
 
-        <div className='px-[10em]  max-sm:px-[2px]  '>
+        <div className='px-[10em]  max-sm:px-[2em]  '>
             <div className='h-full flex flex-col '>
                 <div className='flex justify-between py-20 items-center '>
                     <Blurcircle top='46em' right='3em' />
