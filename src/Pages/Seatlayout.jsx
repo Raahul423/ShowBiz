@@ -76,7 +76,7 @@ const Seatlayout = () => {
 
   useEffect(() => {
     getShow();
-  },[])
+  })
 
 
   return show ? (
