@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react'
-import { useNavigate, useParams } from 'react-router'
+import { useParams } from 'react-router'
 import { assets, dummyDateTimeData, dummyShowsData } from '../assets/assets'
 import Movies from './Movies'
 import Loading from '../Components/Loading'
 import { ArrowRight, Ban, Clock, User } from 'lucide-react'
 import Isotimeformat from '../Components/Isotimeformat'
 import toast from 'react-hot-toast'
-import { useClerk, useUser } from '@clerk/clerk-react'
+import { useUser } from '@clerk/clerk-react'
+
 
 const Seatlayout = () => {
 
   const { user } = useUser()
-  const navigate = useNavigate();
 
 
   const proceedclick = () => {
@@ -76,7 +76,7 @@ const Seatlayout = () => {
 
   useEffect(() => {
     getShow();
-  }, [])
+  },[])
 
 
   return show ? (
@@ -109,7 +109,7 @@ const Seatlayout = () => {
 
 
         <div className='flex flex-wrap justify-center text-sm max-sm:text-[12px] font-semibold gap-11'>
-          {grouprows.slice(1).map((group, idx) => (
+          {grouprows.slice(1).map((group) => (
             <div>
               {group.map(row => renderseats(row))}
             </div>
