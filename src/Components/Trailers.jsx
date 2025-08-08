@@ -22,9 +22,9 @@ const Trailers = () => {
 
 
       <div className='flex w-full max-sm:justify-center  justify-around max-sm:gap-3  gap-8 sm:px-8 '>
-          {dummyTrailers.map((image)=>{
+          {dummyTrailers.map((image,id)=>{
             return(
-              <div onClick={()=>(SetTrailers(image))} className='relative hover:-translate-y-2 duration-300'>
+              <div key={id} onClick={()=>(SetTrailers(image))} className='relative hover:-translate-y-2 duration-300'>
                 <img className=' max-sm:object-cover rounded-2xl max-sm:h-[10em] max-sm:w-[10em] cursor-pointer hover:opacity-50' src={image.image} />
                 <CirclePlay className=' max-sm:hidden max-sm:w-[1em] max-sm:h-[1em] cursor-pointer absolute top-10 left-24 w-[3em] h-[3em]'/>
               </div>

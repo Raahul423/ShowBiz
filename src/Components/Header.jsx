@@ -1,17 +1,20 @@
-import React, { useEffect } from 'react'
 import { assets } from '../assets/assets'
 import { ArrowRight, Calendar, Clock } from 'lucide-react'
 import { useNavigate } from 'react-router'
 import toast from 'react-hot-toast'
+import { useEffect } from 'react'
 
 const Header = () => {
 
 const navigate = useNavigate()
 
-const timeout = setTimeout(()=>{
+const message = setTimeout(()=>{
     toast.success("Welcome User")
 })
 
+useEffect(()=>{
+    message
+})
 
 
 
