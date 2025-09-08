@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router'
-import { dummyCastsData, dummyDateTimeData, dummyShowsData } from '../assets/assets';
+import {dummyDateTimeData, dummyShowsData } from '../assets/assets';
 import { CirclePlay, Heart, StarIcon } from 'lucide-react';
 import Timeformat from '../Components/Timeformat';
 import Datetime from '../Components/Datetime';
