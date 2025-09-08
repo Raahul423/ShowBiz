@@ -33,7 +33,7 @@ const Moviesdetails = () => {
 
 
 
-  return show ? (
+  return (
     <div className='px-[10em] pt-[8em] max-sm:px-[2em] max-sm:pt-[2em] flex flex-col gap-[6em]'>
       <div className=' flex max-sm:flex-col mt-20'>
         <LazyLoad>
@@ -93,8 +93,7 @@ const Moviesdetails = () => {
       </div>
 
     </div>
-  ) :
-    <Loading />
+  )
 };
 
 
