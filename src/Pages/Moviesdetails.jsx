@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router'
-import {dummyDateTimeData, dummyShowsData } from '../assets/assets';
+import { dummyDateTimeData, dummyShowsData } from '../assets/assets';
 import { CirclePlay, Heart, StarIcon } from 'lucide-react';
 import Timeformat from '../Components/Timeformat';
 import Datetime from '../Components/Datetime';
 import Relatedmovies from '../Components/Relatedmovies';
 import Loading from '../Components/Loading';
+import LazyLoad from 'react-lazy-load';
 
 const Moviesdetails = () => {
-
-
 
   const { id } = useParams();
   const [show, setShow] = useState(null);
@@ -17,17 +16,17 @@ const Moviesdetails = () => {
 
   const getShow = () => {
     const selectedShow = dummyShowsData.find(show => show._id === id);
-    if(selectedShow){
-       setShow({
-      movie: selectedShow,
-      dateTime: dummyDateTimeData
-    })
+    if (selectedShow) {
+      setShow({
+        movie: selectedShow,
+        dateTime: dummyDateTimeData
+      })
     }
-   
+
   };
 
   useEffect(() => {
-    getShow();
+    getShow()
   }, [id]);
 
 
@@ -36,8 +35,10 @@ const Moviesdetails = () => {
   return show ? (
     <div className='px-[10em] pt-[8em] max-sm:px-[2em] max-sm:pt-[2em] flex flex-col gap-[6em]'>
       <div className=' flex max-sm:flex-col mt-20'>
+        <LazyLoad>
+          <img src={show.movie.poster_path} alt="error" className='h-104 max-w-70 rounded-2xl object-cover max-sm:m-auto' />
+        </LazyLoad>
 
-        <img src={show.movie.poster_path} alt="error" className='h-104 max-w-70 rounded-2xl object-cover max-sm:m-auto' />
         <div className='px-8 flex flex-col gap-4 max-sm:px-2'>
           <p className='text-xl text-[#f74566]'>ENGLISH</p>
 
@@ -87,12 +88,12 @@ const Moviesdetails = () => {
       <Datetime dateselect={show.dateTime} id={id} />
 
       <div>
-        <Relatedmovies/>
+        <Relatedmovies />
       </div>
 
     </div>
   ) :
-    <Loading/>
+    <Loading />
 };
 
 
